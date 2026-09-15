@@ -7,6 +7,10 @@
 
 An automated, resilient Web3 bot designed to interact with the **AuraLaunch** presale pool and smart contracts on the **LitVM LiteForge Testnet** (AuraFlow). Built with **Ethers.js v6**, featuring RPC retry wrappers, dynamic gas bumping, anti-crash receipt polling, and randomized execution intervals.
 
+<p align="center">
+  <img src="assets/bot-preview.png" alt="AuraLaunch Bot Execution Preview" width="100%">
+</p>
+
 ---
 
 ## 📋 Table of Contents
@@ -115,6 +119,8 @@ Start the transaction cycle:
 ```bash
 npm start
 ```
+
+The bot will display your active wallet, target pool, current zkLTC balance, and begin broadcasting transactions with live confirmation receipts and randomized intervals (as shown in the execution preview above).
 
 ---
 
