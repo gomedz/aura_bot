@@ -1,0 +1,34 @@
+{
+  "name": "aura_bot",
+  "version": "1.0.0",
+  "description": "Automated Presale & Interaction Bot for AuraLaunch on LitVM LiteForge Testnet",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "check": "node check-contract.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomedz/aura_bot.git"
+  },
+  "keywords": [
+    "auraflow",
+    "litvm",
+    "liteforge",
+    "testnet",
+    "auralaunch",
+    "web3",
+    "bot",
+    "ethers"
+  ],
+  "author": "gomedz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gomedz/aura_bot/issues"
+  },
+  "homepage": "https://github.com/gomedz/aura_bot#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "ethers": "^6.17.0"
+  }
+}
